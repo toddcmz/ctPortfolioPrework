@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing Todd Camnitz</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="homePageHeaderImg">
+        <div id="homePageHeaderText">
+            <h1>Todd Camnitz</h1>
+            <h2>Lantern Slides</h2>
+        </div>
+    </div>
+    <h4 style="text-align:center; background-color:rgb(127, 139, 130); margin-top:0px; margin-bottom:5px; color:aliceblue">-- Choose a Photo Below to Learn More --</h4>
+        <nav class="navGallery">
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#profBack">
+                        <img src="images/dashboardCrop.png" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Professional<br>Background</div>
+                </div>
+            </div>
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#whyDev">
+                        <img src="images/mountainSide.JPG" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Why Web<br>Dev?</div>
+                </div>
+            </div>
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#pottery">
+                        <img src="images/pottery.jpg" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Hobbies:<br>Pottery</div>
+                </div>
+            </div>
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#game">
+                        <img src="images/gameTiles.JPG" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Skill &<br>Stature</div>
+                </div>
+            </div>
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#cats">
+                        <img src="images/cats.jpg" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Obviously:<br>Cats</div>
+                </div>
+            </div>
+            <div class="responsivePhotos">
+                <div class="galleryPhoto">
+                    <a href="#wyr">
+                        <img src="images/ladybug.JPG" alt="data dashboard" height="320" width="240">
+                    </a>
+                    <div class="galleryDesc">Would You<br>Rather?</div>
+                </div>
+            </div>
+        </nav>
+    <div class="clearfix"></div>
+
+    <main class=""mainContent>
+        <div>
+            <article>
+                <h2 id="profBack">Professional Background & Sundry</h2>
+                <p><img src="images/headshot.jpg" style="border-radius:50px; float:left; margin:0px 10px 0px 10px">
+                My professional career started in environmental studies with an interest in climate and energy. In undergrad,
+                I worked in an ice-core laboratory, prepping samples for analysis in the mass spectrometer. This was my 
+                introduction to the world of data.<br><br>After college I got a job working for an energy efficiency consulting company 
+                whose clients were electric and gas utilities. I maintained an interest in human behavior and 
+                social psychology throughout this work, and eventually pursued a phd in social psychology, during which time I worked
+                in a social psych research lab and happened to take an advanced statistics course taught in R.<br><br> R gave me my first
+                taste of coding, something I took to immediately, though I had essentially no computer science up to this point. I ended up choosing to work
+                for another consulting company in the field of mental health and social services, instead of continuing work on the phd. 
+                This turned out to be an excellent job where I worked every day with complicated health datasets, using R and excel to automate the data wrangling
+                and analysis process, as well as to build several tools for internal project and staff planning.<br><br>While doing this,
+                my interests and work started to drift away from the more analysis-focused aspects of the work, and towards
+                automation, coding, and data engineering. I also developed several Shiny web applications through R for interactive data exploration and 
+                dashboarding (a term I have come to regard with suspicion and apprehension.) 
+                </p>
+                <h4>Project Highlights</h4>
+                <ul>
+                    <li><a href="https://toddcmz.shinyapps.io/okDashboardShowcase/" target="_blank">Mental Health Prevalence Shiny Dashboard </a>(Opens in a new tab)</li>
+                    <ul style="list-style-type: none;">
+                        <li>This was a 6-month project for a client who wanted to show mental health and substance use prevalence by region
+                            in the state of Oklahoma. It combined data from the Census, the National Survey of Drug Use and Health, and GIS shapefiles
+                            among other sources. Roughly as much time went into the underlying data work as into learning how to implement the various
+                            display approaches in Shiny. As the sole author, this project was an excellent learning opportunity and proved to me that, as happy as 
+                            I was with this result, there was still a lot to learn.
+                        </li>
+                    </ul>
+                    <li>Interactive staff hours by project by month planning tool (Shiny)</li>
+                    <li>Automated project planning excel worksheets</li>
+                    <li>Myriad analyses of MH and SUD program implementations involving linear modeling and cost effectiveness studies</li>
+                    <li>Fully automated R script to read in health data over time from National Outcomes Measures tool and spit out over 40 formatted summaries.
+                        This made it possible to generate 10-20 separate reports showing program progress on a quarterly basis.
+                    </li>
+                </ul>
+                <hr>
+            </article>
+        </div>
+        <div>
+            <article>
+                <h2 id="whyDev">Why Web Development</h2>
+                <p>There used to be a coffee shop in Boulder called The Cup. This was a favorite spot
+                    to work. There was a large, colorful poster in the back, a cartoon-style thing of a girl
+                    holding a number of balloons, with large stylized block text over the whole image. The text read, 
+                    <strong style="color:red;">YOU SHOULD MAKE THINGS.</strong> Until this point in life, I hadn't made much. In fact, I had a mentality
+                    that tended to keep me from making things. Looking back, it's remarkable how big changes in thinking
+                    and behavior can come from seemingly small things in the moment. This poster was one of those things.
+                    The more times I saw it, the more I came to think, "yeah, I <em>should</em> make things."<br><br>
+                    This was long before I knew I liked and wanted to code, but I bothered to tell the story because
+                    there's more to coding for me than my love of puzzles and the great feelings of satisfaction I get 
+                    from automating a previously gnarly manual process: I like to create. In my mind, software engineering
+                    and coding in general are all in service of <em style="color:blueviolet">adding something useful to the world,</em> which I've 
+                    come to see as distinctly preferrable to merely engaging in arbitrage, or other zero sum activities (my poker habit notwithstanding).<br><br>
+                    In the long run I believe my work at coding temple is going to serve a broader goal of putting my coding 
+                    skills to work in data engineering applications. The more I've learned and the more I've spoken to my peers 
+                    who have also completed coding bootcamps, the more I realized that the next step in my 
+                    personal development needed to be a full-stack bootcamp. This is something I've long wanted to do, and I'm very excited
+                    to at last have the opportunity to take the plunge.</p>
+                    <hr>
+            </article>
+            <article>
+                <h2 id="pottery">Pottery</h2>
+                <p style="text-align:center;">I've been making bowls, cups, and plates for the last several years, and am the sole-propiretor 
+                of Good Catch Pottery. Perhaps a new, self-built website is in Good Catch Pottery's near future. In the mean time, you can 
+                check out a couple introductory videos about my pottery process below (thumbnails take you to youtube.)</p>
+                <div style="text-align:center;">
+                    <a class="potteryLink" href="https://youtu.be/yTTmoqromHQ" target="_blank" title="Intro to Wedging and Throwing";>
+                        <img src="images/vidOneThumb.jpg" alt="table with pottery" style="float:none; padding:20px;">
+                    </a>
+                    <a class="potteryLink" href="https://youtu.be/ynj-Z4JwA1w" target="_blank" title="Intro to Trimming and Glazing";>
+                        <img src="images/vidTwoThumb.jpg" alt="trimming a ceramic bowl" style="float:none; padding:20px;">
+                    </a>
+                </div>
+                <div style="clear:both";></div>
+                <hr>
+            </article>
+            <article>
+                <h2 id="game">Skill & Stature</h2>
+                <img src="images/gameOverview.jpg" alt="board game overview" style="float:right; height:200px;">
+                <p>I'd be remiss not to mention that a friend and I have spent the last 3 years or so attempting to invent a board game.
+                    We are strongly influenced by games like Catan, Firefly (the board game from the show), Scythe, and Dominion. As such,
+                    we've finished our beta, and the beta art has been printed and will be arriving any day now. The game is called Skill & Stature,
+                    and is an engine-builder where the aim is to become the land's next Guild Master.<br> <br>
+                    We're proud to have made it this far, but now comes the difficult task of either producing it ourselves (something neither of
+                    us has time for), or finding a publisher who wants to take a chance and buy it. It's been humbling to realize not only
+                    to expect a litany of rejections, but also that we'd often not even <em>get the chance</em> to be rejected. 
+                    We're learning that many publishers don't accept unsolicited pitches for new games. At the moment, I think our best
+                    bet is to bring it to a game conference once we're finished blind-testing all the beta materials and rulebook.
+                </p>
+                <div style="clear:right;"></div>
+                <hr>
+            </article>
+            <article>
+                <h2 id="cats">Cats</h2>
+                <p style="text-align:center;">The following table describes my cats, as shown in the navgallery at the top of the page.</p>
+                    <table id="catTable">
+                        <tr id="catTableRowOne">
+                            <th>Name</th>
+                            <th>Watson</th>
+                            <th>Zuko</th>
+                        </tr>
+                        <tr>
+                            <th>Patterning</th>
+                            <td>Tuxedo</td>
+                            <td>Tabby</td>
+                        </tr>
+                            <th>Relative Weight</th>
+                            <td>Wiffle Ball</td>
+                            <td>Bowling Ball</td>
+                        <tr>
+                            <th>Likes</th>
+                            <td>Pouncing</td>
+                            <td>Being Sweet</td>
+                        </tr>
+                        <tr>
+                            <th>Dislikes</th>
+                            <td>Turkey</td>
+                            <td><em>NA</em></td>
+                        </tr>
+                        <tr>
+                            <th>Disposition</th>
+                            <td>Sly</td>
+                            <td>Doofus</td>
+                        </tr>
+                    </table>
+                <hr>
+            </article>
+            <article>
+                <h2 id="wyr">Would You Rather</h2>
+                <p>Now you know all about me. Let's get to know you. What better way to do this than a game of Would You Rather?</p>
+                <form> <!--I don't know what to do with the form data, yet, so I'm just ignoring that part until we review it-->
+                    <h3>Q1.</h3>
+                    <p>If you could get on a colony ship, that is, a spaceship headed off to start a new human colony on a previously unknown
+                        planet but you could never return to Earth, would you go? Assume that you can take certain family members and friends 
+                        with you, you're guaranteed to make it there in one piece and that your life expectancy upon arrival would be the same as on 
+                        Earth. Also ignore any considerations related to the time of the trip; you'll go to sleep here and wake up there, if you like, 
+                        or you can have brief wake-up periods in transit if you prefer, but you don't have to live out the rest of your life on the ship.
+                    </p>
+                    <input type="radio" id="go" name="colonyShip" value="go">
+                    <label for="go">Go</label>
+                    <br>
+                    <input type="radio" id="stay" name="colonyShip" value="stay">
+                    <label for="stay">Stay</label>
+                    <br>
+                    <h3>Q2.</h3>
+                    <p>Would you rather live the rest of your life in a chic studio apartment in the middle of some big city, or in a small cabin in the
+                        woods, far enough from your neighbors' houses that you can't visually see them from your property? We're not assuming anything
+                        other than what's stated in the question for this one.
+                    </p>
+                    <input type="radio" id="city" name="liveWhere" value="city">
+                    <label for="city">City Studio Apartment</label>
+                    <br>
+                    <input type="radio" id="woods" name="liveWhere" value="woods">
+                    <label for="woods">Cabin in the Woods</label>
+                    <br>
+                    <h3>Q3.</h3>
+                    <label for="whichGame">If you could play only one videogame for the rest of your life, which game would it be?</label>
+                    <br>
+                    <br>
+                    <input type="text" id="whichGame" name="whichGame" placeholder="E.g., Beat Saber">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Responses">
+                </form>
+            </article>
+        </div>
+    </main>
+    <hr>
+    <footer style="background-color:rgb(127, 139, 130); text-align:center; color:aliceblue;">
+        <p><em> So long and thanks for all the fish tacos </em><br></p>
+    </footer>
+</body>
+</html>

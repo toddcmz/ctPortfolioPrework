@@ -1,0 +1,141 @@
+body, html{
+    height: 100%;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(230, 224, 217);
+}
+
+#homePageHeaderImg{
+    background-image:linear-gradient(rgba(100,0,0,0),rgba(100,0,0,0)), url("../images/lakeDock.JPG");
+    height: 200px;
+    background-repeat: norepeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#homePageHeaderText{
+    color:rgb(233, 241, 248);
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgb(89, 107, 139);
+}
+
+div.galleryPhoto{
+    border: 2px solid rgb(237, 241, 228);
+}
+
+div.galleryPhoto:hover{
+    border: 2px solid rgb(89, 107, 139);
+    opacity: 0.8;
+}
+
+div.galleryPhoto img{
+    width: 100%;
+    height: auto;
+}
+
+div.galleryDesc {
+    padding: 15px;
+    text-align: center;
+}
+
+*{ /* I'd very much like to know what this does. Why the star? apply to all border boxes? why not just the ones in this navbar area?*/
+    box-sizing: border-box;
+}
+
+.responsivePhotos{
+    float: left;
+    width: 16.666%; /*I realized I had to adjust this*/
+}
+
+@media only screen and (max-width: 700px){
+    .responsivePhotos{
+        width: 33.33%; /*I realized I had to adjust this*/
+        margin: 2px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsivePhotos{
+        width: 49.5%;
+    }
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li, p{
+    font-family: calibri;
+}
+
+hr{
+    color:rgba(195, 221, 243,0.3)
+}
+
+h2{
+    text-align: center;
+    color:rgb(241, 246, 250);
+    text-shadow: 3px 3px 6px rgb(89, 107, 139);
+    -webkit-text-stroke-color:rgb(233, 227, 228);
+    -webkit-text-stroke-width: 0.25px;
+    letter-spacing: 2px;
+    background-color: rgba(55, 62, 68, 0.2)
+}
+
+.potteryLink:hover{
+    opacity: 0.8;
+}
+
+#catTable{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#catTable td, #catTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#catTable tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+#catTable tr:nth-child(even){
+    background-color: rgb(216, 213, 213);
+}
+
+#catTableRowOne th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(127, 139, 130);
+    color: white;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #246b26;
+    color: white;
+    padding: 14px;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2ba031;
+  }
+
+  input[type=text]{
+    width: 50%;
+    padding: 10px;
+  }
